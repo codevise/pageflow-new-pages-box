@@ -16,7 +16,7 @@
     <%= content_tag(:div,
                     '',
                     class: "thumbnail is_#{page.template}",
-                    style: "background-image: url('#{asset_path(page.thumbnail_url(:navigation_thumbnail_large))}')") %>
+                    style: "background-image: url('#{asset_path(page_thumbnail_url(page, :navigation_thumbnail_large))}')") %>
   <% end %>
   <hr />
 <% end %>
