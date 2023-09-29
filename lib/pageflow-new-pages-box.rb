@@ -1,4 +1,5 @@
 require 'pageflow/new_pages_box/engine'
+require 'pageflow/new_pages_box/version'
 
 module Pageflow
   module NewPagesBox
